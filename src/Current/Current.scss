@@ -1,0 +1,48 @@
+.Current{
+    padding-top:10vh;
+
+    .left{
+        padding: 20px;
+        background: rgba( 255, 255, 255, 0.20 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 20.0px );
+        -webkit-backdrop-filter: blur( 20.0px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        .left-outer{
+            display: flex;
+           justify-content: space-around;
+            .innr{
+
+                display:flex;
+                flex-direction: column;
+            }
+        }
+    }
+    .right{
+        padding: 20px;
+        background: rgba( 255, 255, 255, 0.20 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 20.0px );
+        -webkit-backdrop-filter: blur( 20.0px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+        .outer{
+            display: flex;
+            margin: 10px 10px;
+            justify-content: space-between;
+            align-items: center;
+
+            .inner{
+                margin: 10px;
+                display: flex;
+                flex-direction: column;
+                text-align:center;
+                
+                width:33%;
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+.App {
+  min-height:100vh;
+  width:100%;
+  background-image:url('./77.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Quicksand', sans-serif;
+}
+
