@@ -32,7 +32,7 @@ function Current() {
                                 <h4> {current ? current.condition.text : ""}</h4>
                             </div>
                             <div className="innr text-center">
-                               <div> <h1 className="display-1">{current ? current.temp_c : ""} *</h1></div>
+                               <div> <h1 className="display-1">{current ? current.temp_c : ""} </h1></div>
                               
                             </div>
                             </div>
